@@ -19,7 +19,7 @@ function extractTopThreeEmotions(message: ChatMessage): { emotion: string; score
 export const Message: React.FC<{ msg: ChatMessage }> = ({ msg }) => {
   const { role, content } = msg.message;
   const timestamp = new Date().toLocaleTimeString();
-  const scores = msg.models?.prosody?.scores || {};
+  // const scores = msg.models?.prosody?.scores || {};
   const topEmotions = extractTopThreeEmotions(msg);
   const topEmotion = topEmotions[0]?.emotion.toLowerCase() || 'neutral';
   // console.log(topEmotion);
