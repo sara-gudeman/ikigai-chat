@@ -1,4 +1,3 @@
-✨ It's giving Hackathon vibes ✨
 I promise the chaotic commit message energy is not a lifestyle.
 
 # React + TypeScript + Vite
