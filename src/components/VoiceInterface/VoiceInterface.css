@@ -35,7 +35,7 @@
 }
 
 .voice-button.listening {
-  background: linear-gradient(to right, #34d399, #3b82f6);
+  background: linear-gradient(to right, rgb(190 216 117), rgb(133 166 20));
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
   transform: scale(1.1);
   /* animation: pulse 1s infinite; */
@@ -46,13 +46,13 @@
 } */
 
 .voice-button.idle {
-  background: linear-gradient(to right, #34d399, #3b82f6);
+  background: linear-gradient(to right, rgb(190 216 117), rgb(133 166 20));
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 .voice-button.idle:hover {
-  background: linear-gradient(to right, #10b981, #2563eb);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, rgb(190 216 117), rgb(133 166 20));
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
 }
 
 .voice-icon {
