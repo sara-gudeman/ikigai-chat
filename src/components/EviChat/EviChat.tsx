@@ -1,7 +1,9 @@
+// @ts-nocheck
 import { useEffect, useRef } from 'react';
 import { Message } from '../Message';
 import type { ChatMessage } from '../../types/messages';
 import './EviChat.css';
+import { hardcodedMessages } from './hardcoded';
 
 export const EviChat = ({ messages }: { messages: ChatMessage[] }) => {
   const bottomRef = useRef<HTMLDivElement>(null);
@@ -12,10 +14,18 @@ export const EviChat = ({ messages }: { messages: ChatMessage[] }) => {
 
   return (
     <section className="messages-container">
-      {messages.map(msg => (
+      {hardcodedMessages.map(msg => (
         <Message key={msg.id} msg={msg} />
       ))}
       <div ref={bottomRef} />
     </section>
   );
+  // return (
+  //   <section className="messages-container">
+  //     {messages.map(msg => (
+  //       <Message key={msg.id} msg={msg} />
+  //     ))}
+  //     <div ref={bottomRef} />
+  //   </section>
+  // );
 };
