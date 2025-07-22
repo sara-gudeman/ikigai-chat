@@ -23,15 +23,13 @@
 
 .message-bubble.user {
   background: linear-gradient(135deg, #fff, #fcecdc);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  border: 1px solid #e5e7eb;
-  color: #1f2937;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: #312e28;
 }
 
 .message-bubble.assistant {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: #1f2937;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: #312e28;
   background: linear-gradient(135deg, #c3c388, #fff);
 }
 
@@ -49,7 +47,7 @@
 /* ========================================
    POSITIVE EMOTIONS
    ======================================== */
-.message-bubble.assistant.admiration,
+/* .message-bubble.assistant.admiration,
 .message-bubble.assistant.adoration,
 .message-bubble.assistant.aestheticAppreciation,
 .message-bubble.assistant.amusement,
@@ -72,25 +70,25 @@
 .message-bubble.assistant.triumph {
   background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 50%, #dbeafe 100%);
   border: 1px solid rgba(34, 197, 94, 0.2);
-}
+} */
 
 /* ========================================
    NEUTRAL EMOTIONS
    ======================================== */
 
-.message-bubble.assistant.contemplative,
+/* .message-bubble.assistant.contemplative,
 .message-bubble.assistant.concentrated,
 .message-bubble.assistant.entrancement,
 .message-bubble.assistant.realization,
 .message-bubble.assistant.sympathy {
   background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 30%, #cbd5e1 70%, #94a3b8 100%);
   border: 1px solid rgba(100, 116, 139, 0.2);
-}
+} */
 
 /* ========================================
    NEGATIVE EMOTIONS
    ======================================== */
-.message-bubble.assistant.anger,
+/* .message-bubble.assistant.anger,
 .message-bubble.assistant.anxiety,
 .message-bubble.assistant.awkwardness,
 .message-bubble.assistant.boredom,
@@ -114,7 +112,7 @@
 .message-bubble.assistant.tiredness {
   background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 30%, #e2e8f0 70%, #b8c5d1 100%);
   border: 1px solid rgba(100, 116, 139, 0.2);
-}
+} */
 
 /* ========================================
    HOVER EFFECTS FOR EMOTION BUBBLES
